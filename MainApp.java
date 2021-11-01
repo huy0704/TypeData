@@ -28,7 +28,7 @@ public class MainApp {
 		//* thông tin một sinh viên
 		System.out.println("Thông tin một sinh viên:");
 		System.out.println(firstName + " "+ lastName);
-		system.out.println(old);
+		system.out.println("tuổi: " + old);
 		System.out.println("Mark Math: "+ markMath);
 		System.out.println("Mã sinh viên: "+ ID);
 		System.out.println("Chứng minh nhân dân: "+ CMND);
