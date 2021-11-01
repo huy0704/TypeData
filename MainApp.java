@@ -7,13 +7,13 @@ package basic.dev;
 public class MainApp {
 
 	public static void main(String[] args) {
-		String firstName = "Truong Vinh";
-		String lastName = "huy";
+		String firstName = "Trương vĩnh";
+		String lastName = "Huy";
 		String ID = "2160162";
 		String CMND = "192078901";
 		String Class = "21CDTH41";
-		String School = "Cao dang cong nghiep hue";
-		String Locate = "Phu dien phu vang thua thien hue";
+		String School = "HueIC";
+		String Locate = "Phú diên phú vang thừa thiên huế";
 		String SDT = "0704534811";
 		String hang = "Mercedes-Benz";
 		String Color = "Trang";
@@ -26,30 +26,30 @@ public class MainApp {
 		
 		
 		//* thông tin một sinh viên
-		System.out.println("thong tin mot sinh vien:");
+		System.out.println("Thông tin một sinh viên:");
 		System.out.println(firstName + " "+ lastName);
 		System.out.println("Mark Math: "+ markMath);
-		System.out.println("Ma sinh vien: "+ ID);
-		System.out.println("Chung minh nhan dan: "+ CMND);
-		System.out.println("lop: "+ Class);
-		System.out.println("truong: " + School);
-		System.out.println("diem trung binh: "+ diemtrungbinh);
+		System.out.println("Mã sinh viên: "+ ID);
+		System.out.println("Chứng minh nhân dân: "+ CMND);
+		System.out.println("Lớp: "+ Class);
+		System.out.println("Trường: " + School);
+		System.out.println("Điểm trung bình: "+ diemtrungbinh);
 		
 		
-        //*thông tin công nhân
-	    System.out.println("");
-		System.out.println("thong tin cong nhan:");
-		System.out.println("Ten: "+ lastName);
-		System.out.println("dia chi: "+ Locate);
-		System.out.println("so dien thoai: "+ SDT);
-		System.out.println("he so luong: "+ hesoluong);
+                //*thông tin công nhân
+	        System.out.println("");
+		System.out.println("Thông Tin Công Nhân:");
+		System.out.println("Tên: "+ lastName);
+		System.out.println("Địa Chỉ: "+ Locate);
+		System.out.println("Số Điện Thoại: "+ SDT);
+		System.out.println("Hệ số Lượng: "+ hesoluong);
 		
 		
 		//* thông tin một chiếc xe car
-		System.out.println("Ten: "+ lastName);
-		System.out.println("hang: "+ hang );
-		System.out.println("gia: "+ Buy+"$");
-		System.out.println("mau: "+ Color);		
+		System.out.println("Tên: "+ lastName);
+		System.out.println("Hãng: "+ hang );
+		System.out.println("Giá: "+ Buy+"$");
+		System.out.println("Màu: "+ Color);		
 	}
 
 }
